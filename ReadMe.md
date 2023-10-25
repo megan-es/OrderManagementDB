@@ -37,7 +37,7 @@ Analyzing sales data to derive insights into sales trends, customer behaviors, a
 - **Source**: [Sample Sales Data on Kaggle](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data).
 - **Features**: Order & shipment, customer details, product pricing.
 
-## 🛠 Tools & Technologies Used
+## Tools & Technologies Used
 
 - **Excel**: Preliminary data handling.
 - **Azure Data Studio**: Database setup and hosting.
@@ -57,7 +57,7 @@ Analyzing sales data to derive insights into sales trends, customer behaviors, a
 3. Employ Python for CSV data insertion.
 4. Execute SQL queries for analysis.
 
-## ⏭ Future Enhancements
+## Future Enhancements
 
 - Integration with visualization tools (e.g., Tableau, Power BI).
 - Predictive modeling for sales forecasting.

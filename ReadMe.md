@@ -47,8 +47,8 @@ Analyzing sales data to derive insights into sales trends, customer behaviors, a
 ## Queries and Analysis
 
 - Top 10 most-ordered products.
-- Sales trends by timeframes.
-- Customer order values.
+- Average order size.
+- Top customers by amount ordered.
 
 ## How to Run the Analysis
 

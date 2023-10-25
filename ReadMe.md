@@ -1,60 +1,63 @@
 # Order Management Database and Analysis
 
-This project involves the analysis of sales data from a sample dataset sourced from Kaggle. The primary goal of this analysis is to gain insights into sales trends, customer behaviors, and product performance. The data has been ingested into a PostgreSQL database hosted on Azure Data Studio, and is being queried for analytical insights.
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Azure Data Studio](https://img.shields.io/badge/AzureDataStudio-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/)
+
+Analyzing sales data to derive insights into sales trends, customer behaviors, and product performance using a PostgreSQL database on Azure Data Studio.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [Tools & Technologies Used](#tools-&-technologies-used)
+- [Queries and Analysis](#queries-and-analysis)
+- [How to Run the Analysis](#how-to-run-the-analysis)
+- [Future Enhancements](#future-enhancements)
 
 ## Project Overview
 
-1. **Initial Data Handling with Excel**: 
-    - Enhanced naming conventions for better clarity and consistency.
-    - Initial exploration of the dataset to identify potential trends and outliers.
+1. **Initial Data Handling with Excel**:
+    - Enhanced naming conventions.
+    - Data exploration for trends and outliers.
 
 2. **Entity Relationship Diagram (ERD)**:
-    - Designed a database schema using an ERD to structure the tables and relationships.
+    - ERD for database schema design.
 
-3. **Database Setup**: 
-    - Used PostgreSQL in Azure Data Studio.
-    - Established table schemas based on the ERD.
-    - Ingested data into the tables from the CSV file.
+3. **Database Setup**:
+    - PostgreSQL in Azure Data Studio.
+    - Data ingestion from CSV.
 
 4. **Data Analysis**:
-    - Used SQL queries to extract insights such as top-performing products, sales trends by region, and customer behaviors.
+    - SQL queries for analytical insights.
 
 ## Dataset
 
-The dataset used in this project is sourced from Kaggle and can be found here: [Sample Sales Data](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data).
+- **Source**: [Sample Sales Data on Kaggle](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data).
+- **Features**: Order & shipment, customer details, product pricing.
 
-The dataset contains details such as:
-- Order and shipment details
-- Customer information
-- Product details including pricing
+## 🛠 Tools & Technologies Used
 
-## Tools & Technologies Used
-
-- **Excel**: For preliminary data cleanup and exploration.
-- **Azure Data Studio**: For setting up and hosting the PostgreSQL database.
-- **PostgreSQL**: The relational database system used for storing and querying the data.
-- **Python**: For data processing and insertion into the database.
+- **Excel**: Preliminary data handling.
+- **Azure Data Studio**: Database setup and hosting.
+- **PostgreSQL**: Data storage and querying.
+- **Python**: Data processing and DB insertion.
 
 ## Queries and Analysis
 
-A few of the analytical queries run on the dataset include:
-1. Finding the top 10 products by sales.
-2. Determining sales trends by month and year.
-3. Identifying the top customers by order value.
-4. Calculating the average order value by country.
+- Top 10 most-ordered products.
+- Sales trends by timeframes.
+- Customer order values.
 
 ## How to Run the Analysis
 
-1. Setup the PostgreSQL database in Azure Data Studio.
-2. Create the tables based on the provided schemas.
-3. Use the Python script to read the CSV file and populate the tables.
-4. Run the SQL queries to perform the analysis.
+1. Initialize PostgreSQL on Azure Data Studio.
+2. Establish tables with provided schemas.
+3. Employ Python for CSV data insertion.
+4. Execute SQL queries for analysis.
 
-## Future Enhancements
+## ⏭ Future Enhancements
 
-- Consider integrating with data visualization tools such as Tableau or Power BI for more intuitive insights.
-- Expand the analysis to include predictive modeling for sales forecasting.
-
----
-
-This README serves as a high-level overview of the project. Depending on the audience and the context in which this README will be used, you might consider adding, removing, or expanding certain sections.
+- Integration with visualization tools (e.g., Tableau, Power BI).
+- Predictive modeling for sales forecasting.
